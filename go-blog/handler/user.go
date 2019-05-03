@@ -4,9 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo"
-	"github.com/ntuongvn97/go-blog/model"
+
+	model "blog/models"
+
+	"github.com/dgrijalva/jwt-go"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
